@@ -1,0 +1,32 @@
+header {
+    display: block;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    gap: 50px;
+    width: 100%;
+
+    img {
+        margin-left: 10px;
+    }
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-weight: 600
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
