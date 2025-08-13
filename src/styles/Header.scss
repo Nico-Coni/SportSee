@@ -5,12 +5,12 @@ header {
 .header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    ;
     background-color: black;
     padding-top: 10px;
     padding-left: 0px;
     padding-bottom: 10px;
-    gap: 50px;
+    gap: 20px;
     width: 100%;
 
     img {
@@ -21,8 +21,8 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: space-evenly;
+    width: 100%;
     font-weight: 600
 }
 

@@ -4,25 +4,34 @@ main {
 }
 
 .main-section {
-    padding: 30px;
+    padding: 60px 10px 0px 60px;
     width: 100%;
 
     h1 {
         margin: 0;
     }
 
-    span {
+    .user-name {
         color: red
     }
 }
 
 .user-infos {
     display: flex;
+    gap: 10px;
 }
 
 .graphs {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    width: 70%;
+    width: 80%;
+}
+
+.square-graphs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
 }

@@ -4,8 +4,15 @@
 
 .section {
   display: flex;
+  height: calc(100vh - 101px);
 }
 
 body {
   margin: 0px;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    height: calc(100vh + 303px);
+  }
 }

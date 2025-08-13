@@ -32,7 +32,8 @@ export function UserAverageSessions({ id }) {
                     <XAxis dataKey="day" stroke="#FFFFFF" opacity={0.6} tickLine={false} axisLine={false} tick={<CustomTick />} interval="preserveStartEnd" />
                     <YAxis hide domain={['dataMin - 10', 'dataMax + 10']} />
                     <Tooltip
-                        contentStyle={{ backgroundColor: 'white', border: 'none', color: 'black' }}
+                        contentStyle={{ backgroundColor: 'white', border: 'none' }}
+                        itemStyle={{ color: '#000000' }}
                         labelStyle={{ display: 'none' }}
                         formatter={(value) => [`${value} min`]}
                     />

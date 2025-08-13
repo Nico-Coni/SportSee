@@ -1,26 +1,29 @@
 aside {
     background-color: black;
-    width: 7%;
     display: flex;
-    height: 700px;
     justify-content: center;
+    width: 80px;
     padding: 10px;
+    height: 100%;
 }
 
 .aside {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: space-around;
 }
 
 .asideIcons {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
     padding: 0;
     gap: 20px;
+    position: absolute;
+    top: 30%;
+    left: 20px;
 }
 
 .copyright {
@@ -30,6 +33,17 @@ aside {
     font-weight: 500;
     writing-mode: sideways-lr;
     text-orientation: upright;
-    justify-self: center;
     align-self: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+    .copyright {
+        bottom: -300px
+    }
+
+    .asideIcons {
+        top: 50%;
+    }
 }
