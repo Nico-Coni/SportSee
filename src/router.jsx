@@ -5,7 +5,10 @@ import App from "./pages/App.jsx"
 const router = createBrowserRouter([
     {
         path: '/user/:id',
-        element: <App />
+        element: <App />,
+        errorElement: <div>Page not found
+            <p>Essayez de rentrer : "localhost:5173/user/12" ou "localhost:5173/user/18" pour voir les données des utilisateurs 12 et 18.</p>
+        </div>
     }])
 
 function Router() {
